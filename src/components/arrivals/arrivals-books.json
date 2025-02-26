@@ -1,0 +1,272 @@
+[
+  {
+    "img": "/public/na1.jpg",
+    "name": "Proceedings of the 2nd International ",
+    "author": "Santo Banerjee",
+    "review": "No Review Yet",
+    "prize": "₹ 41,663 ",
+    "discount": "₹ 43,399",
+    "discountAmount": "30%"
+  },
+  {
+    "img": "/public/na2.jpg",
+    "name": "Seismic Isolation,Energy Dissipation ",
+    "author": "Mustafa Erdik",
+    "review": "No Review Yet",
+    "prize": "₹ 34,425",
+    "discount": "₹ 38,250"
+  },
+  {
+    "img": "/public/na3.jpg",
+
+    "name": "Power System Dynamic Modelling and Analysis",
+    "author": "Babak Badrza...",
+    "review": "No Review Yet",
+    "prize": "₹ 34,037 ",
+    "discount": ""
+  },
+  {
+    "img": "/public/na4.jpg",
+
+    "name": "Analysis on Fock Spaces and Mathematical",
+    "author": "Asao Arai",
+    "review": "No Review Yet",
+    "prize": "₹ 26,805",
+    "discount": ""
+  },
+  {
+    "img": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/937/9781805218937.jpg",
+    "name": "Oyster Perpetual Submariner",
+    "authore": "Nicholas Foulkes",
+    "review": "No Review Yet",
+    "prize": "₹7,487 ",
+    "discount": "₹10,850",
+    "dicount-discountAmount": "31%"
+  },
+  {
+    "img": "/public/na6.jpg",
+
+    "name": "6-79b",
+    "author": "Henning Radtke",
+    "review": "No Review Yet",
+    "prize": "₹ 24,139",
+    "discount": ""
+  },
+  {
+    "img": "/public/na7.jpg",
+
+    "name": "Entertainment Media and Communication..",
+    "author": "Nicholas Davi...",
+    "review": "No Review Yet",
+    "prize": "₹ 24,067",
+    "discount": ""
+  },
+  {
+    "img": "/public/na8.jpg",
+
+    "name": "Routledge HAndbook Protection",
+    "author": "Jurgita Malina...",
+    "review": "No Review Yet",
+    "prize": "₹22,372",
+    "discount": "₹ 23,800"
+  },
+  {
+    "img": "/public/na9.jpg",
+
+    "name": "Cytokine Storm Syndrome",
+    "author": "Edward M Beh...",
+    "review": "No Review Yet",
+    "prize": "₹ 22,320",
+    "discount": "₹ 24,000"
+  },
+  {
+    "img": "/public/na10.jpg",
+
+    "name": "New Technologies,Development and",
+    "author": "Isak Karabego...",
+    "review": "No Review Yet",
+    "prize": "₹ 21,048",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na11.jpg",
+
+    "name": "Partial Identification in Econometrics and ..",
+    "author": "Vladik Kreinov...",
+    "review": "No Review Yet",
+    "prize": "₹ 21,048",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na12.jpg",
+
+    "name": "Human Microbiome",
+    "author": "Muhammad Sa...",
+    "review": "No Review Yet",
+    "prize": "₹ 21,048",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na13.jpg",
+
+    "name": "Management of Migraube Pain...",
+    "author": "Shvetabk Bhatt",
+    "review": "No Review Yet",
+    "prize": "₹ 20,831",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na14.jpg",
+
+    "name": "Antiviral Innate Immunity",
+    "author": "Chunfu Zheng ",
+    "review": "No Review Yet",
+    "prize": "₹ 20,831",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na15.jpg",
+
+    "name": "Mathematical Modeling and Simulation of",
+    "author": "Dmitri Vinnikov",
+    "review": "No Review Yet",
+    "prize": " 20,831",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na16.jpg",
+
+    "name": "Hepatitis B Virus",
+    "author": "Haitao Guo",
+    "review": "No Review Yet",
+    "prize": "₹ 20,831",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na17.jpg",
+
+    "name": "Advances in Computer Science and Ubiquitous",
+    "author": "Yi Plan",
+    "review": "No Review Yet",
+    "prize": "₹20,831",
+    "discount": "₹21,699"
+  },
+  {
+    "img": "/public/na18.jpg",
+
+    "name": "Mathematical Analysis, Differential Equations",
+    "author": "Panos M Pard...",
+    "review": "No Review Yet",
+    "prize": "₹ 20,812",
+    "discount": ""
+  },
+  {
+    "img": "/public/na19.jpg",
+
+    "name": "Consensus",
+    "author": "Thomas Jeschke",
+    "review": "No Review Yet",
+    "prize": "₹ 20,534",
+    "discount": ""
+  },
+  {
+    "img": "/public/na20.jpg",
+
+    "name": "Fluorescence Imagine of the Brain",
+    "author": "Dmitri Rusakov",
+    "review": "No Review Yet",
+    "prize": "₹ 20,314",
+    "discount": "₹ 22,080"
+  },
+  {
+    "img": "/public/na21.jpg",
+
+    "name": "Pathogens Associated with the Development",
+    "author": "Noe Velazque...",
+    "review": "No Review Yet",
+    "prize": "₹ 20,314",
+    "discount": "₹ 22,080"
+  },
+  {
+    "img": "/public/na22.jpg",
+
+    "name": "Signal and Information Processing,Networking",
+    "author": "Yue Wang",
+    "review": "No Review Yet",
+    "prize": "₹ 19,958",
+    "discount": "₹ 31,680"
+  },
+  {
+    "img": "/public/na23.jpg",
+
+    "name": "HAndbook of Evidenece-Based inpatient Mental",
+    "author": "JArrod M Leffler",
+    "review": "No Review Yet",
+    "prize": "₹ 19,958",
+    "discount": "₹ 31,680"
+  },
+  {
+    "img": "/public/na24.jpg",
+
+    "name": "Digital Twin and Blockchain fr Smart",
+    "author": "Amit Kumar T...",
+    "review": "No Review Yet",
+    "prize": "₹ 19,530",
+    "discount": "₹ 21,700"
+  },
+  {
+    "img": "/public/na25.jpg",
+
+    "name": "Covid-19 Pandemic",
+    "author": "Rita E Colwell",
+    "review": "No Review Yet",
+    "prize": "₹ 19,529",
+    "discount": "₹ 21,592"
+  },
+  {
+    "img": "/public/na26.jpg",
+
+    "name": "Verlage 3,Verbreitender",
+    "author": "Thomas Keide...",
+    "review": "No Review Yet",
+    "prize": "₹ 19,404",
+    "discount": ""
+  },
+  {
+    "img": "/public/na27.jpg",
+
+    "name": "Epizootic Hemorrhagic Disease Virus",
+    "author": "Carrie Batten",
+    "review": "No Review Yet",
+    "prize": "₹ 19,312",
+    "discount": "₹ 21,699"
+  },
+  {
+    "img": "/public/na28.jpg",
+
+    "name": "Traditional Resources and Tools for Modern",
+    "author": "Anupam Das T...",
+    "review": "No Review Yet",
+    "prize": "₹ 18,943",
+    "discount": "₹ 19,529"
+  },
+  {
+    "img": "/public/na29.jpg",
+
+    "name": "Non,Thermal Food Processing",
+    "author": "Kaavya Rathn...",
+    "review": "No Review Yet",
+    "prize": "₹ 18,769",
+    "discount": "₹ 20,400"
+  },
+  {
+    "img": "/public/na30.jpg",
+
+    "name": "   Wind and Truth",
+    "authore": "Brandon Sanderson",
+    "review": "No Review Yet",
+    "prize": "₹2,229 ",
+    "discount": "₹3,230",
+    "dicount-discountAmount": "31%"
+  }
+]

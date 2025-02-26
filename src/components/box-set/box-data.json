@@ -1,0 +1,168 @@
+[
+  {
+    "img": "/public/box-set13.jpg",
+    "name": "Tintin Paperback Boxed Set 23 titles",
+    "author": "Herge",
+    "prize": "₹9,099",
+    "discount": " ₹13,999",
+    "discountAmount": "35%"
+  },
+  {
+    "img": "/public/box-set14.jpg",
+    "name": "Three-Body Problem Boxed Set",
+    "author": "Joel Martinsen",
+    "prize": "₹3,729",
+
+    "discount": " ₹4,843",
+    "discountAmount": "23%"
+  },
+  {
+    "img": "/public/box-set15.jpg",
+    "name": "Essential Ottolenghi [Special Edition, Two-Book",
+    "author": "Yotam Ottolengh",
+    "prize": "₹3,655",
+    "discount": " ₹4,250",
+    "discountAmount": "14%"
+  },
+  {
+    "img": "/public/box-set16.jpg",
+    "name": "Six of Crows Boxed Set",
+    "author": "Leigh Bardugo",
+    "prize": "₹1,629",
+    "discount": " ₹2,294",
+    "discountAmount": "29%"
+  },
+  {
+    "img": "/public/box-set17.jpg",
+    "name": "Harry Potter: The Illustrated Collection",
+    "author": "Jim Kay",
+    "prize": "₹8,364",
+    "discount": " ₹10,200",
+    "discountAmount": "18%"
+  },
+  {
+    "img": "/public/box-set18.jpg",
+    "name": "Magic Tree House Books 1-28 Boxed Set",
+    "author": "Mary Pope Os",
+    "prize": "₹5,359",
+    "discount": " ₹7,999",
+    "discountAmount": "33%"
+  },
+  {
+    "img": "/public/box-set19.jpg",
+    "name": "Harry Potter Paperback Boxed Set: Books 1-7",
+    "author": "J K ROWLINGJ K ROWLING",
+    "prize": "₹7,140",
+    "discount": " ₹8,500 ",
+    "discountAmount": "16%"
+  },
+  {
+    "img": "/public/box-set20.jpg",
+    "name": "Classic boxed set",
+    "author": "Suzanne Collins",
+    "prize": "₹1,876",
+    "discount": " ₹2,886",
+    "discountAmount": "35%"
+  },
+  {
+    "img": "/public/box-set1.jpg",
+    "name": "Boxed - Dog Man: The Supa Buddies Mega Collection:",
+    "author": "Dav Pilkey",
+    "prize": "₹9,165",
+    "discount": " ₹11,042",
+    "discountAmount": "17%"
+  },
+
+  {
+    "img": "/public/box-set2.jpg",
+    "name": "Caraval Paperback Boxed Set",
+    "author": "Stephanie Garber",
+    "prize": "₹2,391",
+    "discount": " ₹3,568",
+    "discountAmount": "33%"
+  },
+
+  {
+    "img": "/public/box-set3.jpg",
+    "name": "Percy Jackson and the Olympians 5 Book",
+    "author": "Rick Riordan",
+    "prize": "₹334",
+    "discount": " ₹3,710",
+    "discountAmount": "91%"
+  },
+  {
+    "img": "/public/box-set4.jpg",
+    "name": "Percy Jackson and the Olympians 5 Book",
+    "author": "Rick Riordan",
+    "prize": "₹2,751",
+    "discount": "₹3,821",
+    "discountAmount": "28%"
+  },
+  {
+    "img": "/public/box-set5.jpg",
+    "name": "Frank Herbert's Dune Saga 6-Book Boxed Set",
+    "author": "Frank Herbert",
+    "prize": "₹5,875",
+    "discount": " ₹9,180",
+    "discountAmount": "36%"
+  },
+
+  {
+    "img": "/public/box-set6.jpg",
+    "name": "Paperback Boxed Set, The-10th Anniversary Edition",
+
+    "author": "Rick Riordan",
+    "prize": "₹2,887",
+    "discount": "₹4,246",
+    "discountAmount": "32%"
+  },
+  {
+    "img": "/public/box-set7.jpg",
+    "name": "George R. R. Martin's A Game of Thrones Leather-",
+    "author": "George R. R. Mart",
+    "prize": "₹4,985",
+
+    "discount": " ₹7,225",
+    "discountAmount": "31%"
+  },
+  {
+    "img": "/public/box-set8.jpg",
+    "name": "Cat Kid Comic Club Collection: From the",
+    "author": "Dav Pilkey",
+    "prize": "₹2,982",
+    "discount": " ₹3,313",
+    "discountAmount": "10%"
+  },
+  {
+    "img": "/public/box-set9.jpg",
+    "name": "The Naturals Paperback Boxed Set",
+    "author": "Jennifer Lynn Barnes",
+    "prize": "₹2,924",
+    "discount": " ₹5,317",
+    "discountAmount": "45%"
+  },
+  {
+    "img": "/public/box-set10.jpg",
+    "name": "Twisted Series 4-Book Boxed Set",
+    "author": "Ana Huang",
+    "prize": "₹2,951",
+    "discount": "₹4,339",
+    "discountAmount": "32%"
+  },
+  {
+    "img": "/public/box-set11.jpg",
+    "name": "The Captain Underpants Colossal Color Collection",
+    "author": "Dav Pilkey",
+    "prize": "₹4,748",
+    "discount": "₹5,521",
+    "discountAmount": "14%"
+  },
+  {
+    "img": "/public/box-set12.jpg",
+    "name": "The Hobbit & The Lord of the Rings Boxed Set",
+    "author": "J. R. R. Tolkien",
+    "prize": "₹5,688",
+    "discount": "",
+    "discountAmount": ""
+  }
+]

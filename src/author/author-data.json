@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "/public/auth1.jpg",
+    "name": "Arundhati Roy",
+    "about": "Arundhati Roy is an Indian writer, best known for her book The God of Small Things (1997), which won the Man Booker Prize for Fiction in 1997. She was born in Shillong, Meghalaya, India. Her parents were Rajib Roy, a Bengali Hindu tea plantation Read More"
+  },
+  {
+    "id": 2,
+    "img": "/public/auth2.jpg",
+    "name": "Stephen Coonts",
+    "about": "STEPHEN COONTS is the author of sixteen New York Times bestselling books that have been translated and published around the world. A former naval aviator and Vietnam combat veteran, he is a graduate of West Virginia University and the University of C Read More"
+  },
+  {
+    "id": 3,
+    "img": "/public/auth3.jpg",
+    "name": "William Wordsworth",
+    "about": "On April 7, 1770, William Wordsworth was conceived in Cockermouth, Cumbria, England. Wordsworth's mom kicked the bucket when he was eight—this experience shapes a lot of his later work. Wordsworth went to Hawkshead Grammar School, where his adorat Read More"
+  },
+  {
+    "id": 4,
+    "img": "/public/auth4.jpg",
+    "name": "Stephen King",
+    "about": "Stephen Edwin King was conceived in Portland, Maine in 1947, the second child of Donald and Nellie Ruth Pillsbury King. After his folks isolated when Stephen was a little child, he and his more established sibling, David, were raised by his mom. Part Read More"
+  },
+  {
+    "id": 5,
+    "img": "/public/auth5.jpg",
+    "name": "John Green",
+    "about": "John Michael Green is the author of Looking for Alaska, An Abundance of Katherines, Paper Towns, and The Fault in Our Stars. He is an American author, vlogger, writer, producer, actor and editor. He was born in Indianapolis, Indiana on august 24, Read More"
+  },
+  {
+    "id": 6,
+    "img": "/public/auth6.jpg",
+    "name": "Gillian Flynn",
+    "about": "Gillian Flynn was born February 24, 1971 in Kansas City, Missouri. She is an American author, screenwriter, comic book writer and former television critic for Entertainment Weekly. Flynn has published three novels, which are all thrillers: Sharp Read More"
+  },
+  {
+    "id": 7,
+    "img": "/public/auth7.jpg",
+    "name": "Gayle Forman",
+    "about": "Gayle Forman is an American young adult fiction author. She was born in June 5, 1978 in in Los Angeles. Her best known novel is If I Stay which topped the New York bestseller list for young adult fiction category. It was later made into a film to Read More"
+  },
+  {
+    "id": 8,
+    "img": "/public/auth8.jpg",
+    "name": "Erich Segal",
+    "about": "An American author, screenwriter, and educator Erich Wolf Segal (16 June, 1937- 17 January, 2010) shot to fame as the author of Love Story . The tragic novel was later adapted into a motion picture which was also a major hit. Son of a tea Read More"
+  },
+  {
+    "id": 9,
+    "img": "/public/auth9.jpg",
+    "name": "Sylvia Plath",
+    "about": "Sylvia Plath was born on 27 Oct , 1932 in Boston , US was an American poet , novelist , short story writer . She wrote poetry , friction and short stories . Her best work was confessional poetry in which she wrote The colossus and other poems . Read More"
+  },
+  {
+    "id": 10,
+    "img": "/public/auth10.jpg",
+    "name": "Shashi Tharoor",
+    "about": "Shashi Tharoor is an individual from the Indian Parliament from the Thiruvananthapuram supporters in Kerala. He beforehand filled in as the United Nations Under-Secretary General for Communications and Public Information and as the Indian Ministe Read More"
+  }
+]

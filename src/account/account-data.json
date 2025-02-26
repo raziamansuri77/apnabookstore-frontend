@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "./public/personalsetttingicon.jpg",
+    "name": "Personal Setting"
+  },
+  { "id": 2, "icon": "./public/myordericon.jpg", "name": "My Order" },
+  { "id": 3, "icon": "./public/wishlisticon.jpg", "name": " My Wishlist" },
+  {
+    "id": 4,
+    "icon": "./public/giftcertificateicon.jpg",
+    "name": "My Gift Certificates"
+  },
+  { "id": 5, "icon": "./public/addressicon.jpg", "name": "My Address" },
+  {
+    "id": 6,
+    "icon": "./public/chagepasswordicon.jpg",
+    "name": "Change Password"
+  }
+]
