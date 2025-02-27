@@ -14,6 +14,7 @@ export default function CartPage() {
     increaseQuantity,
     decreaseQuantity,
     addToWishlist,
+    processDirectCheckout,
   } = useGlobalContext();
 
   // Calculate total price
@@ -29,6 +30,7 @@ export default function CartPage() {
   };
 
   const handleBuyNow = () => {
+    processDirectCheckout(cartItems);
     navigate("/checkout");
   };
 

@@ -137,12 +137,12 @@ export default function Search() {
               Today's Deal
             </div>
           </Link>
-          <div className="w-[1px] h-[20px] bg-red-500"></div>
-          <Link to="/requestBook">
+          {/* <div className="w-[1px] h-[20px] bg-red-500"></div> */}
+          {/* <Link to="/requestBook">
             <div className="py-1 px-2 xl:px-4 cursor-pointer hover:text-[#E42B26] font-semibold duration-150 text-xs md:text-sm xl:text-base">
               Request Book
             </div>
-          </Link>
+          </Link> */}
         </div>
         <div
           className="relative cursor-pointer"

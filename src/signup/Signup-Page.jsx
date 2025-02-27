@@ -85,13 +85,13 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('public/loginbg.jpg')] bg-cover py-8">
+    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('loginbg.jpg')] bg-cover py-8">
       <div className="w-[500px] h-[550px] shadow-sm pb-6 bg-white  relative">
         <div className="   text-[#E42B26] font-bold flex justify-between h-[120px]">
           <div className="text-[28px] p-4 ">
             India's Largest Online Book Store
           </div>
-          <img src="./public/cart-lady.jpg" alt="" className="w-[150px]" />
+          <img src="./cart-lady.jpg" alt="" className="w-[150px]" />
         </div>
         <form
           className="text-center py-3 px-12 space-y-4"
@@ -151,7 +151,7 @@ export default function SignupPage() {
             </button>
           </div>
           {/* <div className="flex justify-center ">
-            <img src="public/google.png" alt="" className="w-[30px] h-[30px]" />
+            <img src="google.png" alt="" className="w-[30px] h-[30px]" />
           </div> */}
           <div className=" text-[13px] font-semibold text-[#E42B26] cursor-pointer  hover:text-black duration-300">
             New to Apna Book Store? Sign up

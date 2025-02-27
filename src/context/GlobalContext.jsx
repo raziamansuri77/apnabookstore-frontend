@@ -5,18 +5,56 @@ const GlobalContext = createContext();
 export const GlobalContextProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [wishlistItems, setWishlistItems] = useState([]);
+  const [checkoutItems, setCheckoutItems] = useState([]);
+
+  // Add new function to handle direct checkout
+  const processDirectCheckout = (items) => {
+    setCheckoutItems(Array.isArray(items) ? items : [items]);
+  };
 
   // Cart functions
   const addToCart = (book) => {
-    // Check if the book is already in the cart
-    // If the book is already in the cart, create a new cart item
+    // Check if book already exists in cart or wishlist
+    const isInCart = cartItems.some((item) => item._id === book._id);
+    const isInWishlist = wishlistItems.some((item) => item._id === book._id);
+
+    if (isInCart) {
+      showToast("Book already in cart!", "warning");
+      return false;
+    }
+
+    if (isInWishlist) {
+      // Remove from wishlist if it exists there
+      removeFromWishlist(book._id);
+    }
+
     const newCartItem = {
       ...book,
       quantity: 1,
-      cartItemId: Date.now() + Math.random(), // Generate a unique cart item ID
+      cartItemId: Date.now() + Math.random(),
     };
-    // Update the cart items state with the new item
     setCartItems([...cartItems, newCartItem]);
+    showToast("Book added to cart successfully!");
+    return true;
+  };
+
+  const addToWishlist = (book) => {
+    const isInWishlist = wishlistItems.some((item) => item._id === book._id);
+    const isInCart = cartItems.some((item) => item._id === book._id);
+
+    if (isInWishlist) {
+      showToast("Book already in wishlist!", "warning");
+      return false;
+    }
+
+    if (isInCart) {
+      showToast("Book already in cart!", "warning");
+      return false;
+    }
+
+    setWishlistItems([...wishlistItems, book]);
+    showToast("Book added to wishlist successfully!");
+    return true;
   };
 
   const removeFromCart = (cartItemId) => {
@@ -48,22 +86,16 @@ export const GlobalContextProvider = ({ children }) => {
     );
   };
 
-  // Wishlist functions
-  const addToWishlist = (book) => {
-    // Always add a new item to the wishlist, even if it already exists
-    const newWishlistItem = {
-      ...book,
-      wishlistItemId: Date.now() + Math.random(), // Generate a unique wishlist item ID
-    };
-    setWishlistItems([...wishlistItems, newWishlistItem]);
-  };
-
-  // const removeFromWishlist = (wishlistItemId) => {
-  //   // Remove an item from the wishlist based on its bookId
-  //   setWishlistItems(
-  //     wishlistItems.filter((item) => item.wishlistItemId !== wishlistItemId)
-  //   );
+  // // Wishlist functions
+  // const addToWishlist = (book) => {
+  //   // Always add a new item to the wishlist, even if it already exists
+  //   const newWishlistItem = {
+  //     ...book,
+  //     wishlistItemId: Date.now() + Math.random(), // Generate a unique wishlist item ID
+  //   };
+  //   setWishlistItems([...wishlistItems, newWishlistItem]);
   // };
+
   const removeFromWishlist = (_id) => {
     setWishlistItems(wishlistItems.filter((item) => item._id !== _id));
   };
@@ -82,6 +114,8 @@ export const GlobalContextProvider = ({ children }) => {
     increaseQuantity,
     decreaseQuantity,
     isInCart,
+    checkoutItems,
+    processDirectCheckout,
   };
 
   return (

@@ -14,9 +14,11 @@ import {
 } from "lucide-react";
 
 export default function QuickView() {
+  // const { id } = useParams();
   const location = useLocation();
   const { bookData } = location.state || {};
-  const { addToCart, addToWishlist } = useGlobalContext();
+  const { addToCart, addToWishlist, processDirectCheckout } =
+    useGlobalContext();
   const navigate = useNavigate();
 
   const [quantity, setQuantity] = useState(1);
@@ -37,9 +39,18 @@ export default function QuickView() {
     addToWishlist(bookData);
     console.log("Added to wishlist:", bookData);
   };
+  // const handleBuyNow = () => {
+  //   addToCart(bookData);
+  //   navigate("/checkout");
+  // };
   const handleBuyNow = () => {
-    addToCart(bookData);
-    navigate("/checkout");
+    const bookWithQuantity = { ...bookData, quantity };
+    processDirectCheckout(bookWithQuantity);
+    navigate("/checkout", {
+      state: {
+        checkoutItems: [bookWithQuantity],
+      },
+    });
   };
   const icons = [
     {
