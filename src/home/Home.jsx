@@ -37,9 +37,9 @@ export default function Home() {
         <BestSeller />
         <Winners />
         <TopBooks />
-        <ExamBooks />
+        {/* <ExamBooks /> */}
         <DiscountBooks />
-        <Author />
+        {/* <Author /> */}
         <Footer />
       </div>
     </div>
