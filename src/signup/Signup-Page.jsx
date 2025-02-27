@@ -150,9 +150,6 @@ export default function SignupPage() {
               <Link to="/login">Existing User? Log in</Link>
             </button>
           </div>
-          {/* <div className="flex justify-center ">
-            <img src="google.png" alt="" className="w-[30px] h-[30px]" />
-          </div> */}
           <div className=" text-[13px] font-semibold text-[#E42B26] cursor-pointer  hover:text-black duration-300">
             New to Apna Book Store? Sign up
           </div>{" "}
