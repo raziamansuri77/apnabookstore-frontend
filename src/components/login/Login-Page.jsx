@@ -54,7 +54,7 @@ export default function LoginPage() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('loginbg.jpg')] bg-cover py-8">
+    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('/')] bg-cover py-8">
       <div className="w-[500px] h-[590px] shadow-sm pb-6 bg-white  relative">
         <div className="   text-[#E42B26] font-bold flex justify-between h-[120px]">
           <div className="text-[28px] p-4 ">
