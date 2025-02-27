@@ -14,7 +14,7 @@ export default function CheckoutPage() {
     ...wishlistItems.map((item) => ({
       ...item,
       quantity: 1,
-      cartItemId: `wishlist-${item.id}`,
+      cartItemId: `wishlist-₹{item.id}`,
     })),
   ];
 
@@ -61,7 +61,7 @@ export default function CheckoutPage() {
                       <div className="font-semibold text-gray-700">
                         {item.name}
                       </div>
-                      <div className="text-gray-600">Price: ${item.prize}</div>
+                      <div className="text-gray-600">Price: ₹{item.prize}</div>
                       {/* Quantity controls */}
                       <div className="flex items-center mt-2 space-x-2">
                         <button
@@ -82,7 +82,7 @@ export default function CheckoutPage() {
                       </div>
                       {/* // Fix for subtotal calculation */}
                       <div className="text-gray-700 mt-1">
-                        Subtotal: $
+                        Subtotal: ₹
                         {(
                           Number(String(item.prize).replace(/[^0-9.]/g, "")) *
                           (Number(item.quantity) || 1)
@@ -107,7 +107,7 @@ export default function CheckoutPage() {
               </div>
               <div className="flex justify-between mb-4 text-gray-700 font-bold">
                 <span>Total Amount:</span>
-                <span>{totalPrice.toFixed(2)}</span>
+                <span>₹{totalPrice.toFixed(2)}</span>
               </div>
               <button
                 onClick={handlePayment}

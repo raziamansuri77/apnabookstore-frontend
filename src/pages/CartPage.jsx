@@ -71,7 +71,7 @@ export default function CartPage() {
                       {item.author}
                     </div>
                     <div className="text-[16px] md:text-[20px] font-semibold">
-                      Price: ${item.prize}
+                      Price: ₹{item.prize}
                     </div>
                     {/* Quantity controls */}
                     <div className="flex items-center mt-2">
@@ -111,7 +111,7 @@ export default function CartPage() {
             ))}
             {/* Display total price */}
             <div className="mt-6 text-xl md:text-2xl font-bold">
-              Total: ${totalPrice.toFixed(2)}
+              Total: ₹{totalPrice.toFixed(2)}
             </div>
             <button
               onClick={handleBuyNow}

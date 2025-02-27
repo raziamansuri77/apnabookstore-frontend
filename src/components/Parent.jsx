@@ -21,14 +21,14 @@ export default function Parent(props) {
   useEffect(() => {
     if (books.length > 0) {
       const shuffledBooks = [...books].sort(() => Math.random() - 0.5);
-      setDisplayedBooks(shuffledBooks.slice(0, 12));
+      setDisplayedBooks(shuffledBooks.slice(0, 10));
     }
   }, [books]);
 
   const handleShowMore = () => {
     const nextBooks = books.slice(currentIndex, currentIndex + 10);
     setDisplayedBooks([...displayedBooks, ...nextBooks]);
-    setCurrentIndex(currentIndex + 12);
+    setCurrentIndex(currentIndex + 10);
   };
 
   if (loading) {

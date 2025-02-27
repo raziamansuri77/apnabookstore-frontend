@@ -20,12 +20,14 @@ export default function CartPage() {
 
   return (
     <div>
-      <BeforeNavbar />
-      <div className="pt-[35px]">
-        <SearchNavbar />
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white w-full">
+        <BeforeNavbar />
+        <div className="pt-[35px]">
+          <SearchNavbar />
+        </div>
+        <Navbar />
       </div>
-      <Navbar />
-      <div className="p-16">
+      <div className="p-16 md:mt-[190px]  mt:[350px]">
         <h1 className="text-[20px] font-bold">My Wishlist</h1>
         {wishlistItems.length === 0 ? (
           <p>Your wishlist is empty.</p>
@@ -50,7 +52,7 @@ export default function CartPage() {
                     {item.author}
                   </div>
                   <div className="text-[20px] font-semibold">
-                    Price: {item.prize}
+                    Price: ₹{item.prize}
                   </div>
                   <button
                     onClick={() => removeFromWishlist(item._id)}
@@ -63,7 +65,7 @@ export default function CartPage() {
             ))}
             {/* Display total value of wishlist items */}
             <div className="mt-6 text-2xl font-bold">
-              Total Value: ₹ {totalValue}
+              Total Value: ₹{totalValue}
             </div>
           </ul>
         )}

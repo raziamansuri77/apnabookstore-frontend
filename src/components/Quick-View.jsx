@@ -19,11 +19,6 @@ export default function QuickView() {
   const { addToCart, addToWishlist } = useGlobalContext();
   const navigate = useNavigate();
 
-  // const handleAddToCart = () => {
-  //   addToCart(bookData);
-  //   console.log("Added to cart:", bookData);
-  // };
-  // Add state for quantity
   const [quantity, setQuantity] = useState(1);
 
   // Add quantity control handlers
@@ -113,10 +108,10 @@ export default function QuickView() {
                   {bookData.author}
                 </div>
                 <div className="text-[16px] sm:text-[20px]">
-                  {bookData.prize}
+                  ₹ {bookData.prize}
                 </div>
                 <div className="line-through text-[#B01A16]">
-                  M.R.P.:{bookData.discount}
+                  ₹ M.R.P.:{bookData.discount}
                 </div>
                 <div className="text-[14px] sm:text-[16px]">
                   {bookData.description}

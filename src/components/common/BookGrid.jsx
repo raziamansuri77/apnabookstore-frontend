@@ -10,7 +10,11 @@ const BookGrid = () => {
 
   const fetchBooks = async () => {
     try {
-      const response = await fetch("/api/books");
+      // const response = await fetch("/api/books");
+      const response = await fetch(
+        "https://apnabookstore-backend.onrender.com/books"
+      );
+
       const data = await response.json();
       setBooks(data);
     } catch (error) {
