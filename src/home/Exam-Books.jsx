@@ -7,7 +7,7 @@ export default function ExamBooks() {
         <div className="">
           <div className="py-2 sm:py-3 md:py-4">Indian Language</div>
           <img
-            src="\public\regionallanguage.jpg"
+            src="regionallanguage.jpg"
             alt=""
             className="cursor-pointer w-full h-auto"
           />
@@ -15,7 +15,7 @@ export default function ExamBooks() {
         <div className="">
           <div className="py-2 sm:py-3 md:py-4"> Exclusive Editions</div>
           <img
-            src="\public\healthparenting.jpg"
+            src="healthparenting.jpg"
             alt=""
             className="cursor-pointer w-full h-auto"
           />

@@ -83,77 +83,77 @@ export default function Author() {
               className="flex-shrink-0     text-black m-4 rounded-lg"
             >
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px]  bg-cover bg-[url('./public/auth1.jpg')] rounded-full"></div>
+                <div className="w-[140px] h-[140px]  bg-cover bg-[url('auth1.jpg')] rounded-full"></div>
                 <p>Arundhti Roy</p>
               </div>
             </div>
             {/* Card 2 */}
             <div className="flex-shrink-0    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth2.jpg')] rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth2.jpg')] rounded-full"></div>
                 <p>Stephen Coonts</p>
               </div>
             </div>
             {/* Card 3 */}
             <div className="flex-shrink-0    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth3.jpg')] rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth3.jpg')] rounded-full"></div>
                 <p>William Words...</p>
               </div>
             </div>
             {/* Card 4 */}
             <div className="flex-shrink-0    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth4.jpg')] rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth4.jpg')] rounded-full"></div>
                 <p>Best Seller</p>
               </div>
             </div>{" "}
             {/* Card 5 */}
             <div className="flex-shrink-0   text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth5.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth5.jpg')]  rounded-full"></div>
                 <p>Stephen King</p>
               </div>
             </div>{" "}
             {/* Card 6 */}
             <div className="flex-shrink-0   text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth6.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth6.jpg')]  rounded-full"></div>
                 <p>John Green</p>
               </div>
             </div>{" "}
             {/* Card 7 */}
             <div className="flex-shrink-0   text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth7.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth7.jpg')]  rounded-full"></div>
                 <p>Gillian Flynn</p>
               </div>
             </div>{" "}
             {/* Card 8 */}
             <div className="flex-shrink-0 h-[100px]    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth8.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth8.jpg')]  rounded-full"></div>
                 <p>Gayle Forman</p>
               </div>
             </div>
             {/* Card 9 */}
             <div className="flex-shrink-0 h-[100px]    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth9.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth9.jpg')]  rounded-full"></div>
                 <p>Erich Segal</p>
               </div>
             </div>{" "}
             {/* Card 10 */}
             <div className="flex-shrink-0 h-[100px]    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth10.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth10.jpg')]  rounded-full"></div>
                 <p>Sylvia Plath</p>
               </div>
             </div>
             {/* Card 10 */}
             <div className="flex-shrink-0 h-[100px]    text-black m-4 rounded-lg">
               <div className="text-center flex  flex-col gap-2 items-center cursor-pointer">
-                <div className="w-[140px] h-[140px] bg-cover bg-[url('./public/auth11.jpg')]  rounded-full"></div>
+                <div className="w-[140px] h-[140px] bg-cover bg-[url('auth11.jpg')]  rounded-full"></div>
                 <p>Shashi Tharoor</p>
               </div>
             </div>
