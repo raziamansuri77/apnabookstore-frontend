@@ -102,13 +102,13 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('loginbg.jpg')] bg-cover py-8">
+    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('/loginbg.jpg')] bg-cover py-8">
       <div className="w-[500px] h-[550px] shadow-sm pb-6 bg-white  relative">
         <div className=" text-[#E42B26] font-bold flex justify-between h-[120px]">
           <div className="text-[28px] p-4 ">
             India's Largest Online Book Store
           </div>
-          <img src="cart-lady.jpg" alt="" className="w-[150px]" />
+          <img src="/cart-lady.jpg" alt="" className="w-[150px]" />
         </div>
         <form
           className="text-center py-3 px-12 space-y-4"
