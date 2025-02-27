@@ -4,7 +4,7 @@ import BeforeNavbar from "./Before-Navbar";
 import SearchNavbar from "./Search-Navbar";
 import Slider from "./Slider";
 import Trending from "./Trending";
-import Comics from "./comics";
+import Comics from "./Comics";
 import IconSlider from "./Icon-Slider";
 import Seller from "./Seller";
 import Arrivals from "./Arrivals";
