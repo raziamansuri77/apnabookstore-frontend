@@ -12,7 +12,7 @@ const trendingBooks = [
     author: "Housel,Morgan",
     price: 251,
     originalPrice: 322,
-    image: "public/t1.jpg",
+    image: "t1.jpg",
     discount: "30%",
   },
   {
@@ -21,7 +21,7 @@ const trendingBooks = [
     author: "Kevin Missal",
     price: 257,
     originalPrice: 396,
-    image: "public/t2.jpg",
+    image: "t2.jpg",
     discount: "30%",
   },
   {
@@ -30,7 +30,7 @@ const trendingBooks = [
     author: "Ronald Meyer",
     price: 314,
     originalPrice: 338,
-    image: "public/t3.jpg",
+    image: "t3.jpg",
     discount: "30%",
   },
   {
@@ -39,7 +39,7 @@ const trendingBooks = [
     author: "Lewis Norman",
     price: 119,
     originalPrice: 199,
-    image: "public/t4.jpg",
+    image: "t4.jpg",
     discount: "30%",
   },
   {
@@ -48,7 +48,7 @@ const trendingBooks = [
     author: "Takehiko Inoue",
     price: 1388,
     originalPrice: 32169,
-    image: "public/t5.jpg",
+    image: "t5.jpg",
     discount: "30%",
   },
   {
@@ -57,7 +57,7 @@ const trendingBooks = [
     author: "Syu Sakuratani",
     price: 309,
     originalPrice: 1105,
-    image: "public/t6.jpg",
+    image: "t6.jpg",
     discount: "30%",
   },
   {
@@ -66,7 +66,7 @@ const trendingBooks = [
     author: "Takehiko Inoue",
     price: 1714,
     originalPrice: 2169,
-    image: "public/t7.jpg",
+    image: "t7.jpg",
     discount: "30%",
   },
   {
@@ -75,7 +75,7 @@ const trendingBooks = [
     author: "Grorge R.R.....",
     price: 536,
     originalPrice: 850,
-    image: "public/t8.jpg",
+    image: "t8.jpg",
     discount: "30%",
   },
   {
@@ -84,7 +84,7 @@ const trendingBooks = [
     author: "Housel,Morgan",
     price: 1410,
     originalPrice: 2169,
-    image: "public/t9.jpg",
+    image: "t9.jpg",
     discount: "30%",
   },
   {
@@ -93,7 +93,7 @@ const trendingBooks = [
     author: "Paul G. Hewitt",
     price: 824,
     originalPrice: 1070,
-    image: "public/t10.jpg",
+    image: "t10.jpg",
     discount: "30%",
   },
   {
@@ -102,7 +102,7 @@ const trendingBooks = [
     author: "Naoki Urasawa",
     price: 1237,
     originalPrice: 2061,
-    image: "public/t11.jpg",
+    image: "t11.jpg",
     discount: "30%",
   },
 ];

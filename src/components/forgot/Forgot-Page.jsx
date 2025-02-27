@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function ForgotPage() {
   return (
-    <div className="flex justify-center h-[600px] items-center  pb-12 border-b-2 bg-[url('public/loginbg.jpg')] bg-cover py-8">
+    <div className="flex justify-center h-[600px] items-center  pb-12 border-b-2 bg-[url('loginbg.jpg')] bg-cover py-8">
       <div className="w-[500px] h-[430px] shadow-sm pb-6 bg-white  relative">
         <div className="   text-[#E42B26] font-bold flex justify-between h-[120px]">
           <div className="text-[28px] p-4 ">
             India's Largest Online Book Store
           </div>
-          <img src="./public/cart-lady.jpg" alt="" className="w-[150px]" />
+          <img src="cart-lady.jpg" alt="" className="w-[150px]" />
         </div>
         <form className="text-center py-3 px-12 flex flex-col gap-12 ">
           <div className="space-y-4">

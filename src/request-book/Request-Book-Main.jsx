@@ -48,12 +48,12 @@ export default function RequestBookMain() {
                         className="border-2 w-full py-1 px-2 outline-none rounded-sm"
                       />
                       <img
-                        src="/public/check.png"
+                        src="check.png"
                         alt=""
                         className="w-[20px] h-[20px] sm:w-[25px] sm:h-[25px] cursor-pointer"
                       />
                       <img
-                        src="/public/edit.png"
+                        src="edit.png"
                         alt=""
                         className="w-[16px] h-[20px] sm:w-[20px] sm:h-[25px] cursor-pointer"
                       />

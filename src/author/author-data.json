@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "/public/auth1.jpg",
+    "img": "/auth1.jpg",
     "name": "Arundhati Roy",
     "email": "arundhati.roy@example.com",
     "publication": "Penguin Books",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "img": "/public/auth2.jpg",
+    "img": "/auth2.jpg",
     "name": "Stephen Coonts",
     "email": "stephen.coonts@example.com",
     "publication": "St. Martin's Press",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "img": "/public/auth3.jpg",
+    "img": "auth3.jpg",
     "name": "William Wordsworth",
     "email": "william.wordsworth@example.com",
     "publication": "Longman Publishers",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "img": "/public/auth4.jpg",
+    "img": "auth4.jpg",
     "name": "Stephen King",
     "email": "stephen.king@example.com",
     "publication": "Scribner",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "img": "/public/auth5.jpg",
+    "img": "auth5.jpg",
     "name": "John Green",
     "email": "john.green@example.com",
     "publication": "Dutton Books",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "img": "/public/auth6.jpg",
+    "img": "auth6.jpg",
     "name": "Gillian Flynn",
     "email": "gillian.flynn@example.com",
     "publication": "Crown Publishing",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "img": "/public/auth7.jpg",
+    "img": "auth7.jpg",
     "name": "Gayle Forman",
     "email": "gayle.forman@example.com",
     "publication": "Viking Books",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "img": "/public/auth8.jpg",
+    "img": "auth8.jpg",
     "name": "Erich Segal",
     "email": "erich.segal@example.com",
     "publication": "Harper & Row",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "img": "/public/auth9.jpg",
+    "img": "auth9.jpg",
     "name": "Sylvia Plath",
     "email": "sylvia.plath@example.com",
     "publication": "Heinemann",
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "img": "/public/auth10.jpg",
+    "img": "auth10.jpg",
     "name": "Shashi Tharoor",
     "email": "shashi.tharoor@example.com",
     "publication": "Aleph Book Company",

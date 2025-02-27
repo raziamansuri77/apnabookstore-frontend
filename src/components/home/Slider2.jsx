@@ -10,13 +10,13 @@ export default function Slider2() {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="public/sl1.jpg" class="d-block w-100" alt="..." />
+            <img src="sl1.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="public/sl2.jpg" class="d-block w-100" alt="..." />
+            <img src="sl2.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="public/sl3.jpg" class="d-block w-100" alt="..." />
+            <img src="sl3.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button

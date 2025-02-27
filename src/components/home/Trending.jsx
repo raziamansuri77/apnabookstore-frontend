@@ -85,7 +85,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]   rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="  ">
                   <img
-                    src="public/t1.jpg"
+                    src="t1.jpg"
                     className="cursor-pointer w-[170px] h-[240px] "
                   />
                 </div>
@@ -109,7 +109,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t2.jpg"
+                    src="t2.jpg"
                     className="cursor-pointer w-[170px] h-[240px]  "
                   />
                 </div>
@@ -133,7 +133,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t3.jpg"
+                    src="t3.jpg"
                     className="cursor-pointer w-[170px] h-[240px]   "
                   />
                 </div>
@@ -157,7 +157,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t4.jpg"
+                    src="t4.jpg"
                     className="cursor-pointer w-[170px] h-[240px] "
                   />
                 </div>
@@ -182,7 +182,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t5.jpg"
+                    src="t5.jpg"
                     className="cursor-pointer w-[170px] h-[240px]  "
                   />
                 </div>
@@ -206,7 +206,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t6.jpg"
+                    src="t6.jpg"
                     className="cursor-pointer w-[170px] h-[240px]  "
                   />
                 </div>
@@ -230,7 +230,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t7.jpg"
+                    src="t7.jpg"
                     className="cursor-pointer w-[170px] h-[240px]  "
                   />
                 </div>
@@ -254,7 +254,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t8.jpg"
+                    src="t8.jpg"
                     className="cursor-pointer  w-[170px] h-[240px] "
                   />
                 </div>
@@ -278,7 +278,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t9.jpg"
+                    src="t9.jpg"
                     className="cursor-pointer  w-[170px] h-[240px] "
                   />
                 </div>
@@ -302,7 +302,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t10.jpg"
+                    src="t10.jpg"
                     className="cursor-pointer  w-[170px] h-[240px] "
                   />
                 </div>
@@ -326,7 +326,7 @@ export default function Trending() {
               <div className="p-4 border-1 xl:h-[400px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                 <div className="">
                   <img
-                    src="public/t11.jpg"
+                    src="t11.jpg"
                     className="cursor-pointer  w-[170px] h-[240px] "
                   />
                 </div>

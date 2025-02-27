@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 export default function SliderDemo() {
-  const images = [
-    "public/1.jpg",
-    "public/2.jpg",
-    "public/3.jpg",
-    "public/4.jpg",
-    "public/5.jpg",
-    "public/6.jpg",
-  ];
+  const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

@@ -18,7 +18,7 @@ export default function AboutUS() {
       <div className="container mx-auto pt-32 pb-16 px-4 mt-[150px] md:mt-[100px]">
         <div className="max-w-4xl mx-auto">
           <div className="pb-6">
-            <img src="public/about-title.png" alt="" className="mx-auto" />
+            <img src="about-title.png" alt="" className="mx-auto" />
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">
@@ -67,7 +67,7 @@ export default function AboutUS() {
           </div>
         </div>
       </div>
-      <img src="public/about-bottom.png" alt="" className="" />
+      <img src="about-bottom.png" alt="" className="" />
       <Footer />
     </div>
   );

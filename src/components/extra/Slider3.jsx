@@ -3,11 +3,11 @@ import React, { useState } from "react";
 export default function Slider3() {
   const books = [
     {
-      img: "./public/icon1.png",
+      img: "icon1.png",
       name: "Best Seller",
     },
     {
-      img: "./public/icon2.png",
+      img: "icon2.png",
 
       name: "Award Winners",
     },

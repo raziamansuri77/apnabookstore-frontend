@@ -80,70 +80,70 @@ export default function Author() {
               className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg"
             >
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth1.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth1.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Arundhti Roy</p>
               </div>
             </div>
             {/* Card 2 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth2.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth2.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Stephen Coonts</p>
               </div>
             </div>
             {/* Card 3 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth3.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth3.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">William Words...</p>
               </div>
             </div>
             {/* Card 4 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth4.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth4.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Best Seller</p>
               </div>
             </div>
             {/* Card 5 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth5.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth5.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Stephen King</p>
               </div>
             </div>
             {/* Card 6 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth6.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth6.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">John Green</p>
               </div>
             </div>
             {/* Card 7 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth7.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth7.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Gillian Flynn</p>
               </div>
             </div>
             {/* Card 8 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth8.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth8.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Gayle Forman</p>
               </div>
             </div>
             {/* Card 9 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth9.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth9.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Erich Segal</p>
               </div>
             </div>
             {/* Card 10 */}
             <div className="flex-shrink-0 text-black m-2 sm:m-3 md:m-4 rounded-lg">
               <div className="text-center flex flex-col gap-1 sm:gap-2 items-center cursor-pointer">
-                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('./public/auth10.jpg')] rounded-full"></div>
+                <div className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] bg-cover bg-[url('auth10.jpg')] rounded-full"></div>
                 <p className="text-sm sm:text-base">Sylvia Plath</p>
               </div>
             </div>

@@ -2,13 +2,7 @@ import React, { useState, useEffect } from "react";
 // import "./App.css"; // Import TailwindCSS styles
 
 export default function Slider() {
-  const slides = [
-    "public/1.jpg",
-    "public/2.jpg",
-    "public/3.jpg",
-    "public/4.jpg",
-    "public/5.jpg",
-  ];
+  const slides = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

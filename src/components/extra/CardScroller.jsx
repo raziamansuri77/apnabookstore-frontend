@@ -82,7 +82,7 @@ export default function CardScroll() {
               <div className="px-2   shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]   rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t1.jpg" className="cursor-pointer  " />
+                    <img src="t1.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>The Psychology</p>
@@ -100,7 +100,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t2.jpg" className="cursor-pointer  " />
+                    <img src="t2.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>Karnal II : Son of Surya</p>
@@ -118,7 +118,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t3.jpg" className="cursor-pointer  " />
+                    <img src="t3.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>White Nights</p>
@@ -136,7 +136,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t4.jpg" className="cursor-pointer  " />
+                    <img src="t4.jpg" className="cursor-pointer  " />
                   </div>
 
                   <div className="text-center w-full px-2 py-2">
@@ -155,7 +155,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t5.jpg" className="cursor-pointer  " />
+                    <img src="t5.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>VAgabond (Vizbig Edition),Vol.3</p>
@@ -173,7 +173,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t6.jpg" className="cursor-pointer  " />
+                    <img src="t6.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>Rooster Fighter,Vol.1</p>
@@ -191,7 +191,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t7.jpg" className="cursor-pointer  " />
+                    <img src="t7.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>Vagabond(Vizbig Edition),Vol.2</p>
@@ -209,7 +209,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t8.jpg" className="cursor-pointer  " />
+                    <img src="t8.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>Fire & Blood</p>
@@ -227,7 +227,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t9.jpg" className="cursor-pointer  " />
+                    <img src="t9.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>Vagabond (Vizbig Edition),Vol.4</p>
@@ -245,7 +245,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t10.jpg" className="cursor-pointer  " />
+                    <img src="t10.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>Conceptual Physics | Twelfth Edition | By Pearson</p>
@@ -263,7 +263,7 @@ export default function CardScroll() {
               <div className="px-2  shadow-sm rounded-lg border-1 xl:h-[430px] ">
                 <div className="p-4 border-1 xl:h-[430px]  rounded-lg flex flex-col items-center gap-2 justify-center shadow-md h-[450px]">
                   <div className="">
-                    <img src="public/t11.jpg" className="cursor-pointer  " />
+                    <img src="t11.jpg" className="cursor-pointer  " />
                   </div>
                   <div className="text-center w-full px-2 py-2">
                     <p>20th Century Boys:The Perfect Edition,Vol.1</p>

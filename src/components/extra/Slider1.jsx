@@ -2,17 +2,17 @@ import React, { useState } from "react";
 
 export default function Slider1() {
   const slides = [
-    "./public/1.jpg",
-    "./public/2.jpg",
-    "./public/3.jpg",
-    "./public/4.jpg",
-    "./public/5.jpg",
-    "./public/6.jpg",
-    "./public/a1.jpg",
-    "./public/a2.jpg",
-    "./public/a3.jpg",
-    "./public/a4.jpg",
-    "./public/a5.jpg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "a1.jpg",
+    "a2.jpg",
+    "a3.jpg",
+    "a4.jpg",
+    "a5.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

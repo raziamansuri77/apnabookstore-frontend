@@ -37,27 +37,27 @@ export default function Footer() {
       <div className="flex justify-center flex-col items-center">
         <div className="flex gap-3 py-4">
           <img
-            src="public/fb.png"
+            src="fb.png"
             alt=""
             className="cursor-pointer w-[35px] h-[35px]"
           />
           <img
-            src="public/instagram.png"
+            src="instagram.png"
             alt=""
             className="cursor-pointer w-[35px] h-[35px]"
           />
           <img
-            src="public/linkedin.png"
+            src="linkedin.png"
             alt=""
             className="cursor-pointer w-[35px] h-[35px]"
           />
           <img
-            src="public/pinterest.png"
+            src="pinterest.png"
             alt=""
             className="cursor-pointer w-[35px] h-[35px]"
           />
           <img
-            src="public/youtube.png"
+            src="youtube.png"
             alt=""
             className="cursor-pointer w-[35px] h-[35px]"
           />

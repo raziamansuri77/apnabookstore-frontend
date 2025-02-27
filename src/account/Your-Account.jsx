@@ -10,7 +10,7 @@ export default function YourAccount() {
         <Link to="/personalsetting">
           <div className="border-2 p-2 rounded-lg flex flex-col justify-center items-center cursor-pointer h-[100px] sm:h-[110px] lg:h-[120px]">
             <img
-              src="./public/personalsetttingicon.jpg"
+              src="./personalsetttingicon.jpg"
               alt=""
               className="w-8 sm:w-10 lg:w-12"
             />
@@ -22,7 +22,7 @@ export default function YourAccount() {
         <Link to="/yourorder">
           <div className="border-2 p-2 rounded-lg flex flex-col justify-center items-center cursor-pointer h-[100px] sm:h-[110px] lg:h-[120px]">
             <img
-              src="./public/myordericon.jpg"
+              src="./myordericon.jpg"
               alt=""
               className="w-8 sm:w-10 lg:w-12"
             />
@@ -34,7 +34,7 @@ export default function YourAccount() {
         <Link to="/wishlist">
           <div className="border-2 p-2 rounded-lg flex flex-col justify-center items-center cursor-pointer h-[100px] sm:h-[110px] lg:h-[120px]">
             <img
-              src="./public/wishlisticon.jpg"
+              src="./wishlisticon.jpg"
               alt=""
               className="w-8 sm:w-10 lg:w-12"
             />
@@ -46,7 +46,7 @@ export default function YourAccount() {
         <Link to="/certificates">
           <div className="border-2 p-2 rounded-lg flex flex-col justify-center items-center cursor-pointer h-[100px] sm:h-[110px] lg:h-[120px]">
             <img
-              src="./public/giftcertificateicon.jpg"
+              src="./giftcertificateicon.jpg"
               alt=""
               className="w-8 sm:w-10 lg:w-12"
             />
@@ -58,7 +58,7 @@ export default function YourAccount() {
         <Link to="/address">
           <div className="border-2 p-2 rounded-lg flex flex-col justify-center items-center cursor-pointer h-[100px] sm:h-[110px] lg:h-[120px]">
             <img
-              src="./public/addressicon.jpg"
+              src="./addressicon.jpg"
               alt=""
               className="w-8 sm:w-10 lg:w-12"
             />
@@ -70,7 +70,7 @@ export default function YourAccount() {
         <Link to="/changepassword">
           <div className="border-2 p-2 rounded-lg flex flex-col justify-center items-center cursor-pointer h-[100px] sm:h-[110px] lg:h-[120px]">
             <img
-              src="./public/chagepasswordicon.jpg"
+              src="./chagepasswordicon.jpg"
               alt=""
               className="w-8 sm:w-10 lg:w-12"
             />

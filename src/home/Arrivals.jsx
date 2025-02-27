@@ -84,10 +84,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s1.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s1.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -113,10 +110,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s2.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s2.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -140,10 +134,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s3.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s3.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -167,10 +158,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s4.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s4.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -196,10 +184,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s5.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s5.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -225,10 +210,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s6.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s6.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -252,10 +234,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s7.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s7.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -281,10 +260,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s8.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s8.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">
@@ -310,10 +286,7 @@ export default function Arrivals() {
                   30%
                 </div>
                 <div className="">
-                  <img
-                    src="public/s9.jpg"
-                    className="cursor-pointer shadow-md "
-                  />
+                  <img src="s9.jpg" className="cursor-pointer shadow-md " />
                 </div>
 
                 <div className="text-center w-full px-2 py-2">

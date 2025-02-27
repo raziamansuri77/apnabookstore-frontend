@@ -12,7 +12,7 @@ export default function SearchNavbar() {
     <div className="px-2 flex lg:justify-between   items-center pt-14 pb-2  ">
       <div className="flex items-center lg:gap-20">
         <img
-          src="./public/logo.png"
+          src="logo.png"
           alt=""
           className="lg:w-[95px] lg:h-[60px] w-[100px] h-[50px] sm:w-[80px] sm:h-[50px] "
         />

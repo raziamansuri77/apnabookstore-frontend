@@ -8,7 +8,7 @@ export default function MedicalBooks() {
           <div className="text-[30px] text-[#E42B26] italic pt-2">
             Medical Books
           </div>
-          <img src="./public/bestsellerheading.jpg" alt="" />
+          <img src="bestsellerheading.jpg" alt="" />
         </div>
       </div>
     </div>
