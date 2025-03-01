@@ -102,12 +102,12 @@ export default function CartPage() {
                   >
                     Remove
                   </button>
-                  <button
+                  {/* <button
                     onClick={() => handleMoveToWishlist(item)}
                     className="w-full md:w-auto py-2 px-4 rounded-md border-2 shadow-sm border-[#EF4444] text-[#EF4444]"
                   >
                     Move to wishlist
-                  </button>
+                  </button> */}
                 </div>
               </li>
             ))}

@@ -18,12 +18,18 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (userData) => {
     try {
-      const response = await axios.post("/api/v1/register", userData);
+      const response = await axios.post(
+        "https://apnabookstore-backend.onrender.com/api/v1/register",
+        userData
+      );
       if (response.status === 201) {
-        const loginResponse = await axios.post("/api/v1/login", {
-          email: userData.email,
-          password: userData.password,
-        });
+        const loginResponse = await axios.post(
+          "https://apnabookstore-backend.onrender.com/api/v1/login",
+          {
+            email: userData.email,
+            password: userData.password,
+          }
+        );
 
         if (loginResponse.status === 200) {
           const { token, userId, email } = loginResponse.data;

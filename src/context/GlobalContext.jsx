@@ -1,4 +1,5 @@
 import React, { createContext, useState, useContext } from "react";
+import { showToast } from "./toastUtils"; // Import showToast
 
 const GlobalContext = createContext();
 
@@ -85,16 +86,6 @@ export const GlobalContextProvider = ({ children }) => {
         .filter((item) => item.quantity > 0) // Remove the item if the quantity becomes 0
     );
   };
-
-  // // Wishlist functions
-  // const addToWishlist = (book) => {
-  //   // Always add a new item to the wishlist, even if it already exists
-  //   const newWishlistItem = {
-  //     ...book,
-  //     wishlistItemId: Date.now() + Math.random(), // Generate a unique wishlist item ID
-  //   };
-  //   setWishlistItems([...wishlistItems, newWishlistItem]);
-  // };
 
   const removeFromWishlist = (_id) => {
     setWishlistItems(wishlistItems.filter((item) => item._id !== _id));
