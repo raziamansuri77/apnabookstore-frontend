@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import useBooks from "../../hooks/useBooks";
+import LoadingAnimation from "./LoadingAnimation"; // Add this import
 
 export default function Parent(props) {
-  const { books, loading, error } = useBooks();
+  const { category } = useParams();
+  const { books, loading, error } = useBooks(category);
   const [value, setValue] = useState(50);
   const [displayedBooks, setDisplayedBooks] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(10);
@@ -20,10 +22,15 @@ export default function Parent(props) {
 
   useEffect(() => {
     if (books.length > 0) {
-      const shuffledBooks = [...books].sort(() => Math.random() - 0.5);
+      setDisplayedBooks([]); // Reset displayed books when category changes
+      const filteredBooks = category
+        ? books.filter((book) => book.category === category)
+        : books;
+      const shuffledBooks = [...filteredBooks].sort(() => Math.random() - 0.5);
       setDisplayedBooks(shuffledBooks.slice(0, 10));
+      setCurrentIndex(10);
     }
-  }, [books]);
+  }, [books, category]);
 
   const handleShowMore = () => {
     const nextBooks = books.slice(currentIndex, currentIndex + 10);
@@ -31,8 +38,11 @@ export default function Parent(props) {
     setCurrentIndex(currentIndex + 10);
   };
 
+  // if (loading) {
+  //   return <div>Loading...</div>;
+  // }
   if (loading) {
-    return <div>Loading...</div>;
+    return <LoadingAnimation />;
   }
 
   if (error) {

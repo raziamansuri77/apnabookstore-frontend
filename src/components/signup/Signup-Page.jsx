@@ -60,71 +60,78 @@ export default function SignupPage() {
           <div className="text-[28px] p-4 ">
             India's Largest Online Book Store
           </div>
-          <img src="cart-lady.jpg" alt="" className="w-[150px]" />
+          {/* <img src="cart-lady.jpg" alt="" className="w-[150px]" /> */}
         </div>
-        <form className="text-center py-3 px-12 space-y-4">
-          <div className="font-semibold">Sign Up</div>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="w-full px-2 py-1 outline-none bg-[#F2F2F2]    "
-          />{" "}
-          <input
-            type="password"
-            placeholder="Enter your password"
-            className="w-full px-2 py-1 outline-none bg-[#F2F2F2]    "
-          />
-          <div className="flex items-center justify-between w-full  ">
-            <div className="border px-2 w-full  py-1">{captchaText}</div>
-            <div className="flex   py-1 px-2 gap-2">
-              <button onClick={playCaptchaSound}>🔊</button>
-              <button onClick={generateCaptcha}>🔄</button>
-            </div>
-            <div>
+        <div className="flex flex-col md:flex-row h-auto md:h-[400px]">
+          <div className="hidden md:block md:pt-[30px] md:w-1/2">
+            <img src="public/banner.png" alt="" className="w-full h-auto" />
+          </div>
+          <div className="w-full md:w-1/2">
+            <form className="text-center py-3 px-12 space-y-4">
+              <div className="font-semibold">Sign Up</div>
               <input
-                type="text"
-                placeholder="Enter CAPTCHA"
-                value={userInput}
-                onChange={handleChange}
-                className="px-2 py-1 outline-none border"
+                type="email"
+                placeholder="Enter your email"
+                className="w-full px-2 py-1 outline-none bg-[#F2F2F2]    "
+              />{" "}
+              <input
+                type="password"
+                placeholder="Enter your password"
+                className="w-full px-2 py-1 outline-none bg-[#F2F2F2]    "
               />
-            </div>
-            {isValid === true && (
-              <div style={{ color: "green", marginTop: "10px" }}>
-                ✅ Correct!
+              <div className="flex items-center justify-between w-full  ">
+                <div className="border px-2 w-full  py-1">{captchaText}</div>
+                <div className="flex   py-1 px-2 gap-2">
+                  <button onClick={playCaptchaSound}>🔊</button>
+                  <button onClick={generateCaptcha}>🔄</button>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Enter CAPTCHA"
+                    value={userInput}
+                    onChange={handleChange}
+                    className="px-2 py-1 outline-none border"
+                  />
+                </div>
+                {isValid === true && (
+                  <div style={{ color: "green", marginTop: "10px" }}>
+                    ✅ Correct!
+                  </div>
+                )}
+                {isValid === false && (
+                  <div style={{ color: "red", marginTop: "10px" }}>
+                    ❌ Incorrect!"
+                  </div>
+                )}
               </div>
-            )}
-            {isValid === false && (
-              <div style={{ color: "red", marginTop: "10px" }}>
-                ❌ Incorrect!"
+              <div className="space-y-2">
+                <button
+                  onClick={validateCaptcha}
+                  style={{ marginLeft: "10px" }}
+                  className=" border-2 border-[#E42B26] w-full p-1 text-[#E42B26] hover:text-black text-[12px] duration-300 "
+                >
+                  Request OTP
+                </button>
+                <button className="bg-[#E42B26] w-full p-1 text-white   ">
+                  <Link to="/login">Existing User? Log in</Link>
+                </button>
               </div>
-            )}
+              <div className="flex justify-center ">
+                <img src="google.png" alt="" className="w-[30px] h-[30px]" />
+              </div>
+              <div className=" text-[13px] font-semibold text-[#E42B26] cursor-pointer  hover:text-black duration-300">
+                New to Bookswagon? Sign up
+              </div>{" "}
+              <div className=" text-[13px] font-semibold cursor-pointer  hover:text-black duration-300">
+                By continuing, I agree to the{" "}
+                <span className="text-[#E42B26] ">
+                  Terms of Use & Privacy Policy
+                </span>
+              </div>
+            </form>
           </div>
-          <div className="space-y-2">
-            <button
-              onClick={validateCaptcha}
-              style={{ marginLeft: "10px" }}
-              className=" border-2 border-[#E42B26] w-full p-1 text-[#E42B26] hover:text-black text-[12px] duration-300 "
-            >
-              Request OTP
-            </button>
-            <button className="bg-[#E42B26] w-full p-1 text-white   ">
-              <Link to="/login">Existing User? Log in</Link>
-            </button>
-          </div>
-          <div className="flex justify-center ">
-            <img src="google.png" alt="" className="w-[30px] h-[30px]" />
-          </div>
-          <div className=" text-[13px] font-semibold text-[#E42B26] cursor-pointer  hover:text-black duration-300">
-            New to Bookswagon? Sign up
-          </div>{" "}
-          <div className=" text-[13px] font-semibold cursor-pointer  hover:text-black duration-300">
-            By continuing, I agree to the{" "}
-            <span className="text-[#E42B26] ">
-              Terms of Use & Privacy Policy
-            </span>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   );

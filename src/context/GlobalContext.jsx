@@ -6,12 +6,6 @@ const GlobalContext = createContext();
 export const GlobalContextProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [wishlistItems, setWishlistItems] = useState([]);
-  const [checkoutItems, setCheckoutItems] = useState([]);
-
-  // Add new function to handle direct checkout
-  const processDirectCheckout = (items) => {
-    setCheckoutItems(Array.isArray(items) ? items : [items]);
-  };
 
   // Cart functions
   const addToCart = (book) => {
@@ -105,8 +99,6 @@ export const GlobalContextProvider = ({ children }) => {
     increaseQuantity,
     decreaseQuantity,
     isInCart,
-    checkoutItems,
-    processDirectCheckout,
   };
 
   return (

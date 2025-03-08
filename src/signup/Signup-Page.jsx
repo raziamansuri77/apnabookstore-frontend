@@ -12,7 +12,6 @@ export default function SignupPage() {
   const { register } = useAuth();
   const navigate = useNavigate();
 
-  // Update the generateCaptcha function for better randomization
   const generateCaptcha = () => {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -24,11 +23,10 @@ export default function SignupPage() {
       result += characters.charAt(randomIndex);
     }
     setCaptchaText(result);
-    setUserInput(""); // Clear user input when generating new CAPTCHA
-    setIsValid(null); // Reset validation status
+    setUserInput("");
+    setIsValid(null);
   };
 
-  // Function to play CAPTCHA as sound
   const playCaptchaSound = () => {
     const sound = new Howl({
       src: [`data:audio/wav;base64,${btoa(generateCaptchaSound(captchaText))}`],
@@ -37,7 +35,6 @@ export default function SignupPage() {
     sound.play();
   };
 
-  // Generate CAPTCHA sound data
   const generateCaptchaSound = (text) => {
     const utterance = new SpeechSynthesisUtterance(text);
     const synth = window.speechSynthesis;
@@ -45,7 +42,6 @@ export default function SignupPage() {
     return "";
   };
 
-  // Add immediate validation on input change
   const handleChange = (e) => {
     const input = e.target.value;
     setUserInput(input);
@@ -54,19 +50,16 @@ export default function SignupPage() {
     }
   };
 
-  // Add a separate validation function for form submission
   const validateCaptcha = () => {
     const isValidCaptcha = userInput === captchaText;
     setIsValid(isValidCaptcha);
     return isValidCaptcha;
   };
 
-  // Initialize CAPTCHA on mount
   useEffect(() => {
     generateCaptcha();
   }, []);
 
-  // Update handleSignup to use the new validation
   const handleSignup = async (e) => {
     e.preventDefault();
 
@@ -85,81 +78,110 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="flex justify-center items-center  pb-12 border-b-2 bg-[url('public/loginbg.jpg')] bg-cover py-8">
-      <div className="w-[500px] h-[550px] shadow-sm pb-6 bg-white  relative">
-        <div className="   text-[#E42B26] font-bold flex justify-between h-[120px]">
-          <div className="text-[28px] p-4 ">
+    <div className="  flex justify-center items-center p-4 sm:p-6 lg:p-8 bg-[url('public/loginbg.jpg')] bg-cover">
+      <div className="w-full max-w-[900px] shadow-sm bg-white rounded-lg overflow-hidden">
+        <div className="text-[#E42B26] font-bold">
+          <div className="text-lg sm:text-xl md:text-2xl lg:text-[30px] p-3 sm:p-4">
             India's Largest Online Book Store
           </div>
-          <img src="./cart-lady.jpg" alt="" className="w-[150px]" />
         </div>
-        <form
-          className="text-center py-3 px-12 space-y-4"
-          onSubmit={handleSignup}
-        >
-          <div className="font-semibold">Sign Up</div>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="w-full px-2 py-1 outline-none bg-[#F2F2F2]    "
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />{" "}
-          <input
-            type="password"
-            placeholder="Enter your password"
-            className="w-full px-2 py-1 outline-none bg-[#F2F2F2]    "
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <div className="flex items-center justify-between w-full  ">
-            <div className="border px-2 w-full  py-1">{captchaText}</div>
-            <div className="flex   py-1 px-2 gap-2">
-              <button onClick={playCaptchaSound}>🔊</button>
-              <button onClick={generateCaptcha}>🔄</button>
-            </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Enter CAPTCHA"
-                value={userInput}
-                onChange={handleChange}
-                className="px-2 py-1 outline-none border"
-              />
-            </div>
-            {isValid === true && (
-              <div style={{ color: "green", marginTop: "10px" }}>
-                ✅ Correct!
-              </div>
-            )}
-            {isValid === false && (
-              <div style={{ color: "red", marginTop: "10px" }}>
-                ❌ Incorrect!"
-              </div>
-            )}
-          </div>
-          <div className="space-y-4 ">
-            <button
-              type="submit"
-              className="bg-[#E42B26] w-full p-1 text-white"
-              onClick={handleSignup}
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-1/2 p-4">
+            <form
+              className="space-y-4 max-w-md mx-auto"
+              onSubmit={handleSignup}
             >
-              Sign Up
-            </button>
-            <button className="bg-[#E42B26] w-full p-1 text-white   ">
-              <Link to="/login">Existing User? Log in</Link>
-            </button>
+              <div className="font-bold text-2xl sm:text-[30px] text-center">
+                Sign Up
+              </div>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full px-3 py-2 rounded-md outline-none bg-[#F2F2F2]"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <input
+                type="password"
+                placeholder="Enter your password"
+                className="w-full px-3 py-2 rounded-md outline-none bg-[#F2F2F2]"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <div className="flex flex-col sm:flex-row items-center gap-3">
+                <div className="border px-3 py-2 rounded-md w-full sm:w-1/3">
+                  {captchaText}
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={playCaptchaSound}
+                    className="p-2 hover:bg-gray-100 rounded-md"
+                  >
+                    🔊
+                  </button>
+                  <button
+                    type="button"
+                    onClick={generateCaptcha}
+                    className="p-2 hover:bg-gray-100 rounded-md"
+                  >
+                    🔄
+                  </button>
+                </div>
+                <div className="w-full sm:w-auto">
+                  <input
+                    type="text"
+                    placeholder="Enter CAPTCHA"
+                    value={userInput}
+                    onChange={handleChange}
+                    className="w-full px-3 py-2 rounded-md outline-none border"
+                  />
+                </div>
+              </div>
+              {isValid !== null && (
+                <div
+                  className={`text-center ${
+                    isValid ? "text-green-600" : "text-red-600"
+                  }`}
+                >
+                  {isValid ? "✅ Correct!" : "❌ Incorrect!"}
+                </div>
+              )}
+              <div className="space-y-3">
+                <button
+                  type="submit"
+                  className="w-full py-2 px-4 bg-[#E42B26] text-white rounded-md hover:bg-[#c62520] transition-colors"
+                >
+                  Sign Up
+                </button>
+                <Link
+                  to="/login"
+                  className="block w-full py-2 px-4 bg-[#E42B26] text-white rounded-md hover:bg-[#c62520] transition-colors text-center"
+                >
+                  Existing User? Log in
+                </Link>
+              </div>
+              <div className="text-sm text-center space-y-2">
+                <p className="font-semibold text-[#E42B26] hover:text-black duration-300 cursor-pointer">
+                  New to Apna Book Store? Sign up
+                </p>
+                <p className="font-semibold text-sm">
+                  By continuing, I agree to the{" "}
+                  <span className="text-[#E42B26] cursor-pointer hover:text-black duration-300">
+                    Terms of Use & Privacy Policy
+                  </span>
+                </p>
+              </div>
+            </form>
           </div>
-          <div className=" text-[13px] font-semibold text-[#E42B26] cursor-pointer  hover:text-black duration-300">
-            New to Apna Book Store? Sign up
-          </div>{" "}
-          <div className=" text-[13px] font-semibold cursor-pointer  hover:text-black duration-300">
-            By continuing, I agree to the{" "}
-            <span className="text-[#E42B26] ">
-              Terms of Use & Privacy Policy
-            </span>
+          <div className="hidden md:block md:w-1/2 p-4">
+            <img
+              src="public/banner.png"
+              alt=""
+              className="w-full h-auto object-cover"
+            />
           </div>
-        </form>
+        </div>
       </div>
     </div>
   );
