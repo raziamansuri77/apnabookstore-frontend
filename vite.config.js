@@ -6,7 +6,6 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        // target: "http://localhost:8080", // Backend server address
         target: "https://apnabookstore-backend.onrender.com", // Backend server address
         changeOrigin: true,
         secure: false,
