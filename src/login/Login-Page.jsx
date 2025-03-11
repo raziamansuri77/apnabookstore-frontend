@@ -101,15 +101,17 @@ export default function LoginPage() {
         </div>
         <div className="flex flex-col md:flex-row h-auto md:h-[400px]">
           <div className="hidden md:block md:pt-[30px] md:w-1/2">
-            <img src="public/banner.png" alt="" className="w-full h-auto" />
+            <img src="/Banner.png" alt="" className="w-full h-auto" />
           </div>
           <div className="w-full md:w-1/2">
             <form
-              className="text-center px-4 md:px-8 lg:px-12 space-y-4"
+              action="login"
+              className="text-center  px-4 md:px-8 lg:px-12 space-y-4"
               onSubmit={handleLogin}
             >
               <div className="font-bold text-2xl md:text-[30px]">Log In</div>
               <input
+                name="email"
                 type="email"
                 placeholder="Email"
                 className="w-full px-2 py-1 outline-none bg-[#F2F2F2]"
@@ -118,6 +120,7 @@ export default function LoginPage() {
                 onChange={(e) => setEmail(e.target.value)}
               />
               <input
+                name="password"
                 type="password"
                 placeholder="Password"
                 required
