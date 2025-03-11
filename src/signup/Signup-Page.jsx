@@ -176,7 +176,7 @@ export default function SignupPage() {
           </div>
           <div className="hidden md:block md:w-1/2 p-4">
             <img
-              src="public/banner.png"
+              src="/Banner.png"
               alt=""
               className="w-full h-auto object-cover"
             />
