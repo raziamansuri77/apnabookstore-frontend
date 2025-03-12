@@ -78,7 +78,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="  flex justify-center items-center p-4 sm:p-6 lg:p-8 bg-[url('public/loginbg.jpg')] bg-cover">
+    <div className="  flex justify-center items-center p-4 sm:p-6 lg:p-8 bg-[url('/loginbg.jpg')] bg-cover">
       <div className="w-full max-w-[900px] shadow-sm bg-white rounded-lg overflow-hidden">
         <div className="text-[#E42B26] font-bold">
           <div className="text-lg sm:text-xl md:text-2xl lg:text-[30px] p-3 sm:p-4">
