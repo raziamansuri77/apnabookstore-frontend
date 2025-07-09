@@ -6,7 +6,8 @@ export const authService = {
   // Register user
   register: async (userData) => {
     try {
-      const response = await axios.post(`${API_URL}/register`, userData);
+      // const response = await axios.post(`${API_URL}/register`, userData);
+      const response = await axios.post(`/api/v1/register`, userData);
 
       if (response.data.token) {
         localStorage.setItem("token", response.data.token);
@@ -21,7 +22,8 @@ export const authService = {
 
   // Login user
   login: async (credentials) => {
-    const response = await axios.post(`${API_URL}/login`, credentials);
+    // const response = await axios.post(`${API_URL}/login`, credentials);
+    const response = await axios.post(`/api/v1/login`, credentials);
     if (response.data.token) {
       localStorage.setItem("token", response.data.token);
       localStorage.setItem("user", JSON.stringify(response.data));

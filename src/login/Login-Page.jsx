@@ -146,11 +146,11 @@ export default function LoginPage() {
                   />
                 </div>
               </div>
-              <Link to="/forgot">
+              {/* <Link to="/forgot">
                 <div className="text-right px-2 font-semibold text-[#E42B26] cursor-pointer hover:text-black duration-300">
                   Forgot your Password?
                 </div>
-              </Link>
+              </Link> */}
               <div className="space-y-2">
                 <button
                   type="submit"
@@ -161,8 +161,11 @@ export default function LoginPage() {
                 </button>
               </div>
               <Link to="/signup">
-                <div className="pt-4 text-[13px] font-semibold text-[#E42B26] cursor-pointer hover:text-black duration-300">
-                  New to Apna Book store? Sign up
+                <div className="pt-4 text-[13px] font-semibold   cursor-pointer   ">
+                  New to Apna Book store?{" "}
+                  <span className="hover:text-[#E42B26] duration-300">
+                    Sign up
+                  </span>
                 </div>
               </Link>
               <div className="text-[13px] font-semibold cursor-pointer hover:text-black duration-300">

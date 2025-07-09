@@ -7,10 +7,10 @@ const useBooks = () => {
   const [error, setError] = useState(null);
   const fetchBooks = async () => {
     try {
-      const response = await axios.get("/api/v1/books");
-      // const response = await axios.get(
-      //   "https://apnabookstore-backend.onrender.com/books/api/books"
-      // );
+      // const response = await axios.get("/api/v1/books");
+      const response = await axios.get(
+        "https://apnabookstore-backend.onrender.com/books/api/books"
+      );
 
       setBooks(response.data);
       setLoading(false);

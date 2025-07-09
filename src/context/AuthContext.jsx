@@ -121,9 +121,9 @@ export const AuthProvider = ({ children }) => {
   const register = async (userData) => {
     try {
       // Use the new axios instance so the base URL is prepended
-      const response = await API.post("/register", userData);
+      const response = await API.post("/api/v1/register", userData);
       if (response.status === 201) {
-        const loginResponse = await API.post("/login", {
+        const loginResponse = await API.post("/api/v1/login", {
           email: userData.email,
           password: userData.password,
         });
@@ -144,7 +144,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (userData) => {
     try {
-      const response = await API.post("/login", userData);
+      const response = await API.post("/api/v1/login", userData);
       if (response.status === 200) {
         const { token, userId, email } = response.data;
         const newUser = { email, userId, token };
